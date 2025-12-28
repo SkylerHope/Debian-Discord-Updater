@@ -11,7 +11,12 @@ sudo apt install curl
 
 Download and run the updater installer script
 ```bash
-curl -L -o install-updater.sh "https://raw.githubusercontent.com/SkylerHope/Debian-Discord-Updater/refs/heads/main/install-updater.sh"
+curl -L -o install-updater.sh "https://raw.githubusercontent.com/SkylerHope/
+```
+```bash
+Debian-Discord-Updater/refs/heads/main/install-updater.sh"
+```
+```bash
 chmod +x install-updater.sh
 ./install-updater.sh
 ```
