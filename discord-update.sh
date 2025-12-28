@@ -12,11 +12,11 @@ check_discord_version_and_install(){
         if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
             curl -L -o discord_latest.deb "https://discord.com/api/download?platform=linux"
             sudo apt install ./discord_latest.deb
-            echo "\n Done! Deleting the .deb file... \n"
+            echo "Done! Deleting the .deb file..."
             rm discord_latest.deb
-            echo "You can now open Discord! :D \n"
+            echo "You can now open Discord! :D"
         else
-            echo "\n Maybe later then... \n"
+            echo "Maybe later then..."
         fi
     fi
 }
