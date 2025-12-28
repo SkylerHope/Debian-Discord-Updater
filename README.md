@@ -27,4 +27,4 @@ Run this command on your terminal to update Discord
 ```bash
 discord-update
 ```
-> NOTE: If you actually update, you will be prompted to enter your password. If you are in the latest version already, you won't need to.
+> NOTE: If you actually update, you will be prompted to enter your password. If you are in the latest version already, you won't.
