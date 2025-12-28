@@ -20,9 +20,11 @@ chmod +x install-updater.sh
 ```bash
 ./install-updater.sh
 ```
+### NOTE: You will be prompted to enter your password.
 
 ## Usage
 Run this command on your terminal to update Discord
 ```bash
 discord-update
 ```
+### NOTE: If you actually update, you will be prompted to enter your password. If you are in the latest version already, you won't need to.
