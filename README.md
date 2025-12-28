@@ -21,7 +21,8 @@ chmod +x install-updater.sh
 ./install-updater.sh
 ```
 
-Now run the command to update Discord
+## Usage
+Run this command on your terminal to update Discord
 ```bash
 discord-update
 ```
