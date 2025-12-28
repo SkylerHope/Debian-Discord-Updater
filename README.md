@@ -1,6 +1,7 @@
 # Debian Discord Updater
 
 A bash script to help you update Discord easily on your Debian distro if you installed it through the .deb file.
+This script creates a command that you can use on your terminal to check for a new discord update and install it right away.
 
 ## Installation
 Download and run the updater installer script
