@@ -8,3 +8,6 @@ chmod +x discord-update.sh
 sudo mv discord-update.sh /usr/local/bin/discord-update
 
 echo "Done! You can run the discord-update command now!"
+
+# Delete the updater installer script
+rm install-updater.sh
