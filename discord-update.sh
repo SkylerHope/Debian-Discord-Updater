@@ -1,9 +1,11 @@
 #!/bin/bash
 
-check_discord_version_and_install(){
+check_available_version(){
     current_version=$(dpkg -s discord | grep Version | awk '{print $2}')
     new_version=$(curl -sI https://discord.com/api/download?platform=linux | grep -oP 'linux/\K[0-9]+\.[0-9]+\.[0-9]+')
+}
 
+compare_version_and_install(){
     if [ $current_version == $new_version ]; then
         echo "You are using the latest version: $current_version"
     elif [[ "$(printf '%s\n%s\n' "$new_version" "$current_version" | sort -V | head -n1)" == "$current_version" ]]; then
@@ -19,6 +21,7 @@ check_discord_version_and_install(){
             echo "Maybe later then..."
         fi
     fi
-}
+}    
 
-check_discord_version_and_install
+check_available_version
+compare_version_and_install
