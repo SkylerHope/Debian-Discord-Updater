@@ -1,5 +1,7 @@
 # Debian Discord Updater
 
+> IMPORTANT: I am no longer working on this script due to the recent Discord announcement of requiring facial recognition or ID verification to access certain parts or features just to collect our data. I don't stand by their decision, but feel free to fork the repo.
+
 A bash script to help you update Discord easily on your Debian distro if you installed it through the .deb file.
 This script creates a command that you can use on your terminal to check for a new discord update and install it right away.
 
